@@ -1,0 +1,12 @@
+---
+name: CommandX 
+version: 0.5.2
+main: TN_Studios\CommandXV2\Main
+api: 5.0.0
+src-namespace-prefix: TN_Studios\CommandXV2
+author: ThorNite Studios
+
+
+
+
+...
