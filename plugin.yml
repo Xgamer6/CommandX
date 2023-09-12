@@ -1,6 +1,6 @@
 ---
 name: CommandX 
-version: 0.5.2
+version: 0.5.3-BETA
 main: TN_Studios\CommandXV2\Main
 api: 5.0.0
 src-namespace-prefix: TN_Studios\CommandXV2
