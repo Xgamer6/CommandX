@@ -1,6 +1,6 @@
 ---
 name: CommandX 
-version: 0.5.4
+version: 5.6.0
 main: TN_Studios\CommandXV2\Main
 api: 5.6.0
 src-namespace-prefix: TN_Studios\CommandXV2
@@ -10,7 +10,7 @@ commands:
     plugindev:
     description: Dev
     permission: "plugin.dev.command"
-    permission-message: "Dev: §dThorNite Team§r, Mae, Malin"
+    permission-message: "Dev: ThorNite Team, Mae, Malin"
 
 
 permissions:
