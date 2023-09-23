@@ -1,20 +1,20 @@
 ---
 name: CommandX 
-version: 0.5.3-BETA
+version: 0.5.4
 main: TN_Studios\CommandXV2\Main
-api: 5.0.0
+api: 5.6.0
 src-namespace-prefix: TN_Studios\CommandXV2
 author: ThorNite Studios
 
 commands:
-    pluginupdate:
-    description: Update the Plugin!
-    permission: "plugin.update.command"
-    permission-message: "Please install it on https://github.com/Xgamer6/CommandX/Help/update.txt"
+    plugindev:
+    description: Dev
+    permission: "plugin.dev.command"
+    permission-message: "Dev: §dThorNite Team§r, Mae, Malin"
 
 
 permissions:
-    plugin.update.command:
+    plugin.dev.command:
     description: Please dont Activate that to a User!
     default: false
 ...
