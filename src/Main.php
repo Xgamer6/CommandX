@@ -1,8 +1,6 @@
-```php
 <?php
 
-namespace 
-  TN_Studios\CommandXV2;
+namespace TN_Studios\CommandXV2;
 
 use pocketmine\Player;
 use pocketmine\Server;
