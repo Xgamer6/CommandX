@@ -1,7 +1,7 @@
 ```php
 <?php
 
-namespace TN_Studios\CommandXV2;
+namespace TN_Studios\CommandXV2\Main;
 
 use pocketmine\Player;
 use pocketmine\Server;
