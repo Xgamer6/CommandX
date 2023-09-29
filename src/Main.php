@@ -1,6 +1,8 @@
+```php
 <?php
 
 namespace TN_Studios\CommandXV2;
+
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\plugin\PluginBase;
@@ -27,3 +29,4 @@ class Main extends PluginBase{
     return false;
   }
 }
+```
