@@ -1,4 +1,3 @@
-```php
 <?php
 
 namespace TN_Studios\CommandXV2;
@@ -29,4 +28,3 @@ class Main extends PluginBase{
     return false;
   }
 }
-```
