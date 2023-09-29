@@ -7,14 +7,14 @@ src-namespace-prefix: TN_Studios\CommandXV2
 author: ThorNite Studios
 
 commands:
-plugindev:
-    description: Dev
-    permission: "plugin.dev.command"
-    permission-message: "Dev: ThorNite Team, Mae, Malin"
+plugininfo:
+    description: Plugin Info (CommandX)
+    permission: "plugin.info.commandx"
+    permission-message: "No Permission!"
 
 
 permissions:
-    plugin.dev.command:
-    description: Please dont Activate that to a User!
-    default: false
+    plugin.info.commandx:
+    description: A Permission
+    default: op
 ...
