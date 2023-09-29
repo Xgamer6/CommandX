@@ -7,8 +7,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
-
-    public function onEnable() {
+  public function onEnable() {
         // Plugin startup logic
     }
 
