@@ -14,7 +14,7 @@ class Main extends PluginBase {
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
-        if ($command->getName() === "plugindev") { // Change "testcommand" to the desired command name
+        if ($command->getName() === "pluginfo") { // Change "testcommand" to the desired command name
             $sender->sendMessage("This is a test message."); // Customize the message here
             return true;
         }
