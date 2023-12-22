@@ -9,11 +9,11 @@ author: TN Studios
 commands:
   cmd1:
     description: Command from Plugin (CommandX)
-    permission: cmd1
+    permission: cmd1.permission
     usage: "/cmd1"
 
   permissions: 
-      cmd1:
+      cmd1.permission:
       default: true
       description: Cmd1
 ...
