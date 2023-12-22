@@ -18,7 +18,7 @@ class Main extends PluginBase implements Listener {
     private $config;
 
     public function onEnable(): void {
-        $this->getLogger()->info("§aPlugin enabled");
+        $this->getLogger()->info("§aPlugin enabled!");
 
         $this->saveResource("config.yml", false);
 
@@ -28,7 +28,7 @@ class Main extends PluginBase implements Listener {
     }
 
     public function onDisable(): void {
-        $this->getLogger()->info("§cPlugin disabled");
+        $this->getLogger()->info("§cPlugin disabled!");
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
