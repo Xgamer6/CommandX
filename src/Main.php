@@ -8,7 +8,7 @@ use pocketmine\command\CommandSender;
 
 class Main extends PluginBase {
 
-    public function onEnable() {
+    public function onEnable(): void {
         $this->getLogger()->info("CommandX enabled");
     }
 
