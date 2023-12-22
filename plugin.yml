@@ -7,14 +7,14 @@ src-namespace-prefix: TN_Studios\CommandXV2
 author: ThorNite Studios
 
 commands:
-plugininfo:
-    description: Plugin Info (CommandX)
-    permission: "plugin.info.commandx"
+test:
+    description: Test Command
+    permission: "plugin.test.commandx"
     permission-message: "No Permission!"
 
 
 permissions:
-    plugin.info.commandx:
+    plugin.test.commandx:
     description: A Permission
     default: op
 ...
