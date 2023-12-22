@@ -9,4 +9,5 @@ author: TN Studios
 commands:
   test:
     description: Command from Plugin (CommandX)
+    permission: commandx.cmd1
 ...
