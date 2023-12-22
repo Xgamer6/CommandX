@@ -8,7 +8,7 @@ description: CommandX
 author: TN Studios
 
 commands:
-   cmd1:
+ cmd1:
    description: CommandX Plugin
    permission: commandx.cmd1
 
