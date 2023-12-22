@@ -20,7 +20,7 @@ class Main extends PluginBase {
         return false;
     }
 
-    public function onDisable() {
+    public function onDisable(): void {
         $this->getLogger()->info("CommandX disabled");
     }
 }
