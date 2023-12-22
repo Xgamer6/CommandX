@@ -1,2 +1,6 @@
-command: example
+Color Codes working!
+§a = Green
+§b = Blue
+§c = Red
+§e = Yellow
 message: Change me in config.yml!
