@@ -8,12 +8,12 @@ description: CommandX
 author: TN Studios
 
 commands:
-   cmdx-spawn:
-    description: Spawn Fake Player!
-    permission: cmdx.spawn.fp
+   cmdx-form:
+       description: Show Form from this Server!
+       permission: cmdx.player
 
 permissions:
-    cmdx.spawn.fp:
-       default: false
+    cmdx.player:
+       default: true
        description: Nothing
 ...
