@@ -15,7 +15,7 @@ class Main extends PluginBase implements Listener {
     /** @var Config */
     private $leaveConfig;
 
-    public function onEnable() {
+    public function onEnable(): void {
         $this->getLogger()->info("§aPlugin enabled");
 
         $this->saveResource("join.yml", false);
