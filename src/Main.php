@@ -10,6 +10,11 @@ use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener {
 
+    /** @var Config */
+    private $joinConfig;
+    /** @var Config */
+    private $leaveConfig;
+
     public function onEnable(): void {
         $this->getLogger()->info("§aPlugin enabled");
 
@@ -18,8 +23,8 @@ class Main extends PluginBase implements Listener {
 
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
 
-        $this->getConfig()->set("joinMessage", $this->getConfig()->get("joinMessage", "Willkommen, {player}!"));
-        $this->getConfig()->set("leaveMessage", $this->getConfig()->get("leaveMessage", "{player} hat den Server verlassen."));
+        $this->joinConfig = new Config($this->getDataFolder() . "join.yml", Config::YAML);
+        $this->leaveConfig = new Config($this->getDataFolder() . "leave.yml", Config::YAML);
     }
 
     public function onDisable(): void {
@@ -28,13 +33,15 @@ class Main extends PluginBase implements Listener {
 
     public function onPlayerJoin(PlayerJoinEvent $event) {
         $player = $event->getPlayer();
-        $joinMessage = str_replace("{player}", $player->getName(), $this->getConfig()->get("joinMessage"));
+        $joinMessage = $this->joinConfig->get("joinMessage", "Willkommen, {player}!");
+        $joinMessage = str_replace("{player}", $player->getName(), $joinMessage);
         $event->setJoinMessage($joinMessage);
     }
 
     public function onPlayerQuit(PlayerQuitEvent $event) {
         $player = $event->getPlayer();
-        $leaveMessage = str_replace("{player}", $player->getName(), $this->getConfig()->get("leaveMessage"));
+        $leaveMessage = $this->leaveConfig->get("leaveMessage", "{player} hat den Server verlassen.");
+        $leaveMessage = str_replace("{player}", $player->getName(), $leaveMessage);
         $event->setQuitMessage($leaveMessage);
     }
 }
