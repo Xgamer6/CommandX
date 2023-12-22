@@ -27,7 +27,7 @@ class Main extends PluginBase implements Listener {
         $this->leaveConfig = new Config($this->getDataFolder() . "leave.yml", Config::YAML);
     }
 
-    public function onDisable() {
+    public function onDisable(): void {
         $this->getLogger()->info("§cPlugin disabled");
     }
 
