@@ -12,8 +12,16 @@ commands:
    description: CommandX Plugin
    permission: commandx.cmd1
 
+ cmdxreload:
+   description: Reload CommandX Plugin
+   permission: commandx.reload
+
 permissions:
   commandx.cmd1:
   default: true
   description: Command 1 Permission
+
+  commandx.reload:
+  default: op 
+  description: Reload Command Permission
 ...
