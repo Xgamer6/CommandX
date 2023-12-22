@@ -6,14 +6,14 @@ api: 5.0.0
 version: 1.3
 description: CommandX
 author: TN Studios
-commands:
-  cmd1:
-    description: Command from Plugin (CommandX)
-    permission: cmd1.permission
-    usage: "/cmd1"
 
-  permissions: 
-      cmd1.permission:
-      default: true
-      description: Cmd1
+commands:
+   cmd1:
+   description: CommandX Plugin
+   permission: commandx.cmd1
+
+permissions:
+  commandx.cmd1:
+  default: true
+  description: Command 1 Permission
 ...
