@@ -16,7 +16,7 @@ class Main extends PluginBase {
     }
 
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
-        if ($command->getName() === "test") {
+        if ($command->getName() === $this->getConfig()->get("command")) {
             $message = $this->getConfig()->get("message");
             $sender->sendMessage($message);
             return true;
