@@ -6,4 +6,14 @@ api: 5.0.0
 version: 1.3.2
 description: CommandX
 author: TN Studios
+
+commands:
+   cmdx-spawn:
+    description: Spawn Fake Player!
+    permission: cmdx.spawn.fp
+
+permissions:
+    cmdx.spawn.fp:
+       default: false
+       description: Nothing
 ...
