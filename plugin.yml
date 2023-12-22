@@ -10,4 +10,9 @@ commands:
   test:
     description: Command from Plugin (CommandX)
     permission: commandx.cmd1
+
+permissions:
+  commandx.cmd1:
+  default: true
+  description: Command 1 Permission
 ...
