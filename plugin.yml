@@ -1,20 +1,12 @@
 ---
-name: CommandX 
-version: 5.6.0
+name: CommandX
 main: TN_Studios\CommandX\Main
-api: 5.0.0
 src-namespace-prefix: TN_Studios\CommandX
-author: ThorNite Studios
-
+api: 5.0.0
+version: 1.2
+description: CommandX
+author: TN Studios
 commands:
-test:
-    description: Test Command
-    permission: "plugin.test.commandx"
-    permission-message: "No Permission!"
-
-
-permissions:
-    plugin.test.commandx:
-    description: A Permission
-    default: op
+  test:
+    description: Command from Plugin (CommandX)
 ...
