@@ -7,6 +7,9 @@ version: 1.3
 description: CommandX
 author: TN Studios
 
+listeners:
+  - TN_Studios\CommandX\PlayerJoinWebhook
+  
 commands:
  cmd1:
    description: CommandX Plugin
