@@ -3,17 +3,7 @@ name: CommandX
 main: TN_Studios\CommandX\Main
 src-namespace-prefix: TN_Studios\CommandX
 api: 5.0.0
-version: 1.3.2
+version: 1.4
 description: CommandX
 author: TN Studios
-
-commands:
-   cmdx-form:
-       description: Show Form from this Server!
-       permission: cmdx.player
-
-permissions:
-    cmdx.player:
-       default: true
-       description: Nothing
 ...
